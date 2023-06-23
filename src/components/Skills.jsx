@@ -7,9 +7,7 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import cpp from "../assets/cpp.png";
 import exp from "../assets/exp.png";
-import heroku from "../assets/heroku.png";
 import mongo from "../assets/mongo.jpeg";
-import netlify from "../assets/netlify.png";
 import node from "../assets/node.png";
 import sql from "../assets/sql.png";
 
@@ -72,18 +70,6 @@ const Skills = () => {
       },
       {
         id: 10,
-        src: heroku,
-        title: "Heroku",
-        style: "shadow-blue-400",
-      },
-      {
-        id: 11,
-        src: netlify,
-        title: "Netlify",
-        style: "shadow-gray-400",
-      },
-      {
-        id: 12,
         src: github,
         title: "GitHub",
         style: "shadow-pink-400",
