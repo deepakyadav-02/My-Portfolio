@@ -5,10 +5,14 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
+import tailwind from "../assets/tailwind.png";
 import cpp from "../assets/cpp.png";
 import exp from "../assets/exp.png";
+import heroku from "../assets/heroku.png";
 import mongo from "../assets/mongo.jpeg";
+import netlify from "../assets/netlify.png";
 import node from "../assets/node.png";
+import postman from "../assets/postman.png";
 import sql from "../assets/sql.png";
 
 
@@ -57,19 +61,43 @@ const Skills = () => {
         style: "shadow-blue-400",
       },
       {
-        id: 8,
+        id: 9,
         src: sql,
         title: "MySQL",
         style: "shadow-gray-400",
       },
       {
         id: 9,
+        src: tailwind,
+        title: "Tailwind",
+        style: "shadow-yellow-400",
+      },
+      {
+        id: 10,
         src: cpp,
         title: "C++",
         style: "shadow-orange-400",
       },
       {
-        id: 10,
+        id: 11,
+        src: heroku,
+        title: "Heroku",
+        style: "shadow-blue-400",
+      },
+      {
+        id: 12,
+        src: netlify,
+        title: "Netlify",
+        style: "shadow-gray-400",
+      },
+      {
+        id: 13,
+        src: postman,
+        title: "Postman",
+        style: "shadow-purple-400",
+      },
+      {
+        id: 14,
         src: github,
         title: "GitHub",
         style: "shadow-pink-400",
@@ -89,7 +117,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
