@@ -4,7 +4,7 @@ import {TiArrowRightThick} from 'react-icons/ti'
 import { Link } from "react-scroll";
 const Home = () => {
   return (
-    <div name="Home" className='h-screen w-full bg-gradient-to-r from-orange-600 to-yellow-400'>
+    <div name="Home" className='h-screen w-full bg-gradient-to-r from-orange-600 to-yellow-400 mb-11'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-black'>Welcome to My Portfolio

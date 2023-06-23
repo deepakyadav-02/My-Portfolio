@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 function App() {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-orange-600 to-yellow-400 top-0 left-0">
       <Navbar />
       <Home />
       <Social />
