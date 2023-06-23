@@ -1,8 +1,11 @@
 import React from "react";
 
-
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 const Contact = () => {
   return (
+    <>
     <div
       name="Contact Me"
       className="w-full h-screen bg-gradient-to-r from-orange-600 to-yellow-400 p-4 text-black mt-11"
@@ -45,7 +48,15 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      
     </div>
+    <div className="flex flex-row justify-center items-center bg-gradient-to-r from-orange-600 to-yellow-400 w-full">
+        <a href="https://github.com/deepakyadav-02" className="px-4 ms-4 bg-gradient-to-r from-orange-600 to-yellow-400 text-black rounded-md hover:scale-110 duration-300 mb-3">Github<FaGithub size={30} /></a>
+        <a href="https://www.linkedin.com/in/deepak-yadav-032b2b247/" className="px-4 ms-4 bg-gradient-to-r from-orange-600 to-yellow-400 text-black rounded-md hover:scale-110 duration-300 mb-3">Linkedin<FaLinkedin size={30} /></a>
+        <a href="mailto:deepakyadav101002@gmail.com" className="px-4 ms-4 bg-gradient-to-r from-orange-600 to-yellow-400 text-black rounded-md hover:scale-110 duration-300 mb-3">Gmail<HiOutlineMail size={30} /></a>
+        <a href="/Resume.pdf" download={true} className="px-4 ms-4 bg-gradient-to-r from-orange-600 to-yellow-400 text-black rounded-md hover:scale-110 duration-300 mb-3">Resume<BsFillPersonLinesFill size={30} /></a>
+      </div>
+    </>
   );
 };
 
