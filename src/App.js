@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 function App() {
   return (
-    <div className="bg-gradient-to-r from-orange-600 to-yellow-400 top-0 left-0">
+    <div className="flex flex-col bg-gradient-to-r from-black via-gray-900 to-black top-0 left-0">
       <Navbar />
       <Home />
       <Projects />
