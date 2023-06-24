@@ -1,5 +1,4 @@
 import React from 'react'
-import Myimage from '../assets/Myimage.png';
 import {TiArrowRightThick} from 'react-icons/ti'
 import { Link } from "react-scroll";
 const Home = () => {
@@ -23,9 +22,6 @@ const Home = () => {
                         <span className='group-hover:rotate-90 duration-300'><TiArrowRightThick size={25} className = 'ml-1' /></span>
                     </Link>
                 </div>
-            </div>
-            <div>
-                <img src={Myimage} alt="my profile" className='rounded-xl mx-auto w-2/3 md:w-full'/>
             </div>
         </div>
     </div>
