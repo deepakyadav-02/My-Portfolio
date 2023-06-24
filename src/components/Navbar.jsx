@@ -25,7 +25,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-r from-black via-gray-900 to-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-r from-black via-gray-900 to-black fixed mb-11">
       <div>
         <h1 className="text-5xl font-signature ml-2">Deepak</h1>
       </div>
@@ -51,7 +51,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white ">
           {links.map(({ id, link }) => (
             <li
               key={id}
