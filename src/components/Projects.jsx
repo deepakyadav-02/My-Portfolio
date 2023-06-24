@@ -9,22 +9,26 @@ const Projects = () => {
         {
             id:1,
             src:sms,
+            title:'School Management System',
             href:'https://github.com/deepakyadav-02/School-Management-System.git'
         },
         {
             id:2,
             src:csew,
+            title:'CSE-Website',
             href:'https://github.com/deepakyadav-02/CSE-Website.git'
           
         },
         {
             id:3,
             src:hdp,
+            title:'Heart Disease Prediction',
             href:'https://github.com/deepakyadav-02/heart-disease-prediction.git'
         },
         {
             id:4,
             src:fer,
+            title:'Facial Emotion Recognition',
             href:'https://github.com/deepakyadav-02/emotion-detector.git'
         },
 
@@ -43,7 +47,7 @@ const Projects = () => {
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-        {projects.map(({ id, src ,href}) => (
+        {projects.map(({ id, src ,href,title}) => (
           <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
             <img
               src={src}
@@ -51,7 +55,8 @@ const Projects = () => {
               className="rounded-md duration-200 hover:scale-105"
             />
             <div className="flex items-center justify-center">
-              <a href={href} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center" target='_blank'
+            <p className="mt-4 ml-3">{title}</p>
+              <a href={href} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center bg-gradient-to-r from-orange-600 to-yellow-400 rounded-xl" target='_blank'
             rel ='noreferrer'>
                 Code
               </a>
