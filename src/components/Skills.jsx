@@ -27,7 +27,7 @@ const Skills = () => {
     {
       id: 2,
       src: css,
-      title: "CSS",
+      title: "CSSdx",
       style: "shadow-blue-500",
     },
     {
